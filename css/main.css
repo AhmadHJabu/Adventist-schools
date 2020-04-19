@@ -3880,13 +3880,19 @@ dl.toggle.time-line:before {
     opacity: 1
 }
 
-.blog-home-banner {
+.home-secondary-school {
     background: url(../img/blog/blog-home-banner.jpg) bottom;
     background-size: cover;
     padding: 130px 0px
 }
 
-.blog-home-banner .primary-btn {
+.home-primary-school {
+    background: url(../img/blog/home-primary-school.jpg) bottom;
+    background-size: cover;
+    padding: 130px 0px
+}
+
+.home-secondary-school .primary-btn {
     border-radius: 0px;
     background: #fff;
     color: #222;
@@ -3898,7 +3904,25 @@ dl.toggle.time-line:before {
     transition: all 0.3s ease 0s
 }
 
-.blog-home-banner .primary-btn:hover {
+.home-secondary-school .primary-btn:hover {
+    background: transparent;
+    border-color: #fff;
+    color: #fff
+}
+
+.home-primary-school .primary-btn {
+    border-radius: 0px;
+    background: #fff;
+    color: #222;
+    font-weight: 600;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.home-primary-school .primary-btn:hover {
     background: transparent;
     border-color: #fff;
     color: #fff
