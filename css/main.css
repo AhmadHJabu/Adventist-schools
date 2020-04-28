@@ -2000,7 +2000,7 @@ h6 {
 }
 
 .header-top {
-    background: #04091e;
+    background: #c20505;
     font-size: 12px;
     padding: 8px
 }
@@ -2519,7 +2519,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content .primary-btn {
-    background-color: #f7631b;
+    background-color: rgba(4, 9, 30, 0.8);
     color: #fff;
     font-weight: 600;
     font-size: 14px
