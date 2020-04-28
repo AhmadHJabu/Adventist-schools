@@ -4915,8 +4915,8 @@ dl.toggle.time-line:before {
 .single-footer-widget .btn {
     font-size: 1.2rem;
     border-radius: 0;
-    background: #f7631b;
-    color: #fff
+    background: #c20505;
+    color: #fff;
 }
 
 .single-footer-widget .btn .lnr {
