@@ -2519,15 +2519,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content .primary-btn {
-    background-color: rgba(4, 9, 30, 0.8);
-    color: #fff;
+    background-color: #fff;
+    color: #f7631b;
     font-weight: 600;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .banner-content .primary-btn:hover {
-    background-color: #fff;
-    color: #f7631b
+    background-color: rgba(4, 9, 30, 0.8);
+    color: #fff;
 }
 
 .feature-area {
