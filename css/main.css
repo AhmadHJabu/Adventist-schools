@@ -3997,12 +3997,12 @@ dl.toggle.time-line:before {
 }
 
 .top-category-widget-area .single-cat-widget:hover .overlay-bg {
-    background: rgba(247, 99, 27, 0.85);
+    background: rgba(194, 5, 5, 0.801);
     margin: 7%;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
 }
 
 @media (max-width: 991px) {
