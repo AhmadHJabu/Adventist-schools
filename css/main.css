@@ -129,7 +129,7 @@ h6 {
     margin-top: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #222
+    color: #222;
 }
 
 h1,
@@ -2037,7 +2037,7 @@ h6 {
 }
 
 .header-top .header-top-left a:hover i {
-    color: #f7631b
+    color: rgba(4, 9, 30, 0.9);
 }
 
 .header-top .header-top-right {
@@ -2085,7 +2085,7 @@ h6 {
 
 #header.header-scrolled {
     transition: all 0.5s;
-    background-color: rgba(4, 9, 30, 0.9)
+    background-color: rgba(4, 9, 30, 0.9);
 }
 
 #header.header-scrolled .main-menu {
@@ -2202,7 +2202,7 @@ h6 {
 }
 
 .nav-menu li:hover>a {
-    color: #f7631b
+    color: #f7631b;
 }
 
 .nav-menu>li {
@@ -2473,7 +2473,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .overlay-bg {
-    background-color: rgba(4, 9, 30, 0.8)
+    background-color: rgba(4, 9, 30, 0.8);
 }
 
 @media (max-width: 767px) {
