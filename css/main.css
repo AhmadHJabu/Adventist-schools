@@ -3160,7 +3160,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .accordion>dt>a.active {
     color: #fff;
     border-color: #ddd;
-    background: #f7631b;
+    background: #c20505;
     cursor: default
 }
 
