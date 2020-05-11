@@ -2783,7 +2783,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .search-course-area {
-    background: url(../img/s-bg.jpg) center;
+    background: url(../img/secondary.jpg) center;
     background-size: cover
 }
 
@@ -3520,7 +3520,7 @@ dl.toggle.time-line:before {
 }
 
 .video-right {
-    background: url(../img/video-bg.jpg) no-repeat center;
+    background: url(../img/about-img.jpg) no-repeat center;
     background-size: cover;
     height: 330px
 }
