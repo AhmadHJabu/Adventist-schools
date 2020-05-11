@@ -2574,7 +2574,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-area {
     background: url(../img/banner-bg.jpg) right;
-    background-size: cover
+    background-size: cover;
 }
 
 .banner-area .overlay-bg {
@@ -3992,7 +3992,7 @@ dl.toggle.time-line:before {
 }
 
 .home-primary-school {
-    background: url(../img/blog/home-primary-school.jpg) bottom;
+    background: url(../img/search-bg.jpg) bottom;
     background-size: cover;
     padding: 130px 0px
 }
