@@ -5121,7 +5121,7 @@ dl.toggle.time-line:before {
 }
 .notice-board h4
 {
-    color: #c20505;
+    color: #E95065;
     font-weight: 400;
 }
 .notice-board p,
@@ -5159,6 +5159,6 @@ dl.toggle.time-line:before {
       font-weight: 600;
   }
 
-  .notice-board{
-      background-color: rgba(0, 0, 0, 0.575);
+  .bg-cool#notice-board{
+      background-color: #04091e;
   }
