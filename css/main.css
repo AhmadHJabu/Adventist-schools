@@ -5162,3 +5162,7 @@ dl.toggle.time-line:before {
   .bg-cool#notice-board{
       background-color: #04091e;
   }
+
+  p.pt-10.pb-10{
+      color: white;
+  }
