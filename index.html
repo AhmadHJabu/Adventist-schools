@@ -130,7 +130,8 @@
 				<div class="row fullscreen d-flex align-items-center justify-content-between">
 					<div class="banner-content col-lg-9 col-md-12">
 						<h1 class="text-uppercase">
-							Welcome to Geita Adventist Schoools | <span class="type"></span>
+						Geita Adventist Schoools <br> 
+						| <span class="type"></span>
 						</h1>
 						<p class="pt-10 pb-10">
 							Geita Adventist Schools
@@ -144,7 +145,36 @@
 			</div>
 		</section>
 		<!-- End banner Area -->
-	
+
+<!--Features Section-->
+<section>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-lg-7 mb-3">
+				<h1>Welcome to Geita Adventist Schools</h1>
+				<p class="message mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum repellat nemo autem ratione odit optio perspiciatis consequatur quam illo architecto suscipit recusandae necessitatibus culpa harum illum temporibus, iste tempore velit?Asperiores, amet accusantium non consectetur id facilis ipsam eveniet perspiciatis aliquam dolorum est nihil quas fugit adipisci quos similique blanditiis libero, qui alias vero sequi ratione magni maiores. Soluta, ratione? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum repellat nemo autem </p>
+				<a href="#">Learn More <i class="fa fa-arrow-right"></i></a>
+			</div>
+			<div class="col-lg-5 bg-dark notice-board mt-3">
+				<a href="#" class="primary-btn text-uppercase">
+						NOTICE BOARD
+				   </a>
+				 <h4 class="mt-3">19-October-2020 to 20-October-2020</h4>
+				 <a href="">MTIHANI WA KUJIUNGA NA KIDATO CHA KWANZA 2021</a>
+				 <p>Kutakuwa na Mtihani wa kujiunga na kidato cha Kwanza...</p>
+				 <h4 class="mt-2">19 October, 2020 </h4>
+				 <a href="">UDAHILI WA KIDAO CHA TANO 2021/2022</a>
+				 <p>Udahili wa Kidao cha tano 2021/2022 bado unaendelea...</p>
+				 <h4 class="mt-2">19 October, 2020 </h4>
+				 <a href="">TUNA WAANGAZIA NAFASI ZA KUHAMIA PP1,PP2 DARASA LA 1,2,3,5 NA 6</a>
+				 <p>Tunawatangazia nafasi za kuhamia pp1...</p>
+				 <h4 class="mt-2">02 JULY, 2020 - 08 JULY, 2020</h4>
+				 <a href="">MAKAMBI YANAANZA </a>
+				 <p>Tunawatangazia kuwa makambi yanaanza...</p>
+			</div>
+		</div>
+	</div>
+</section>
 		
 <!-- Start top-category-widget Area -->
 
@@ -215,6 +245,37 @@
 <!-- End top-category-widget Area -->
 
 
+ <div class="container">
+	<div class="title text-center">
+		<h1 class="mb-10">Geita Adventist Schools</h1>
+		<p>Geita Adventist Nursery, Primary and Secondary Schools.</p>
+	</div>
+ </div>
+ <section class="Learning-Opportunity mt-5 pb-5">
+	<div class="container text-center text-white pt-5">
+	   <h3 class="display3">Your Learning Opportunity</h3>
+	   <div class="row pt-5">
+		  <div class="col-md-3">
+			 <h3 class="display-4"><span class="counter">50</span><span>+</span></h3>
+			 <h3 class="display3">Teachers</h3>
+		  </div>
+		  <div class="col-md-3">
+			 <h3 class="display-4"><span class="counter">300</span><span>+</span></h3>
+			 <h3 class="display3">Courses and Topics</h3>
+		  </div>
+		  <div class="col-md-3">
+			 <h3 class="display-4"><span class="counter">278</span><span>+</span></h3>
+			 <h3 class="display3">Past Papers</h3>
+		  </div>
+		  <div class="col-md-3 pb-5">
+			 <h3 class="display-4"><span class="counter">500</span><span>K</span></h3>
+			 <h3 class="display3">Current Students</h3>
+		  </div>
+	   </div>
+	</div>
+ </section>
+ 
+ <!--End of Features Section-->
 
 
 <!-- Start  Area -->
@@ -587,6 +648,8 @@
 		<script src="js/mail-script.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/typed.min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
 		<script>
 		var typed = new Typed('.type', {
   strings: [ 'Nursery School', 
@@ -596,6 +659,15 @@
 			backSpeed: 40,
 			loop: true
 });
+</script>
+
+<script>
+	jQuery(document).ready(function($) {
+		$('.counter').counterUp({
+			delay: 10,
+			time: 1000
+		});
+	});
 </script>
 
 	</body>
