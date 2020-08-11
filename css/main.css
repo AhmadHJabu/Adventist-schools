@@ -2301,7 +2301,7 @@ h6 {
     display: inline-block;
     color: #fff;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
     outline: none
 }
@@ -5166,3 +5166,7 @@ dl.toggle.time-line:before {
   p.pt-10.pb-10{
       color: white;
   }
+.bottom_footer{
+    background-color: #c20505;
+    font-weight: 500;
+}
