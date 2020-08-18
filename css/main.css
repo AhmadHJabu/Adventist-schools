@@ -3997,6 +3997,12 @@ dl.toggle.time-line:before {
     padding: 130px 0px
 }
 
+.home-high-school {
+    background: url(../img/secondary.jpg) bottom;
+    background-size: cover;
+    padding: 130px 0px
+}
+
 .home-secondary-school .primary-btn {
     border-radius: 0px;
     background: #fff;
