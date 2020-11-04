@@ -4958,7 +4958,8 @@ dl.toggle.time-line:before {
 }
 
 .footer-area {
-    background-color: #04091e
+    background-color: rgba(4, 9, 30, 0.8);
+    color: #ffffff;
 }
 
 .single-footer-widget h4 {
@@ -4989,7 +4990,7 @@ dl.toggle.time-line:before {
 }
 
 .single-footer-widget ul li a {
-    color: #777;
+    color: #ffffff;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
