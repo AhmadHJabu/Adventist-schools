@@ -2677,7 +2677,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-feature:hover .title {
-    background: #f7631b
+    background: rgb(194, 5, 5);
 }
 
 .single-feature:hover .desc-wrap a {
@@ -2690,7 +2690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     .single-feature .title {
-        background: #f7631b
+        background: rgb(194, 5, 5);
     }
 }
 
