@@ -213,6 +213,13 @@
 }
 
 @media only screen and (max-width: 767px){
+.container-sms{
+        font-size: 26px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px){
 .welcome-text h1{
     color: #fff;
     font-size: 26px;
