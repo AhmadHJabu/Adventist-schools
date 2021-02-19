@@ -137,15 +137,15 @@
 -----------------------------*/
 
 .slide-bg-one {
-    background: rgba(0, 0, 0, 0) url("../img/Gallery/01.jpeg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/search-bg.jpg") no-repeat scroll center center / cover;
 }
 
 .slide-bg-two {
-    background: rgba(0, 0, 0, 0) url("../img/Gallery/02.jpeg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/banner-bg.jpg") no-repeat scroll center center / cover;
 }
 
 .slide-bg-three {
-    background: rgba(0, 0, 0, 0) url("../img/Gallery/03.jpeg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/high/03.jpeg") no-repeat scroll center center / cover;
 }
 
 .welcome-slider-area .owl-controls {
