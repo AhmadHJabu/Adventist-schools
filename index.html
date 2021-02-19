@@ -111,30 +111,64 @@
 			</div>
 		</div>
     </header>
-		<!-- start banner Area -->
-		<section class="banner-area relative" id="home">
-			<!--<div class="overlay overlay-bg"></div>-->
-			<div class="container">
-				<div class="row fullscreen d-flex align-items-center justify-content-between">
-					<div class="banner-content col-lg-9 col-md-12">
-						<h1 class="text-uppercase">
-						Welcome to Geita Adventist Schools |
-						<span class="type d-none d-sm-inline" ></span>
-						</h1>
-						<p class="pt-10 pb-10">
-							Geita Adventist Schools
-						</p>
-					
-							<a href="#Explore" class="primary-btn text-uppercase">
-						 Explore More
-						</a>
-					
-						
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End banner Area -->
+		 <!--WELCOME SLIDER AREA-->
+        <div class="welcome-slider-area white font16">
+            <div class="welcome-single-slide">
+                <div class="slide-bg-one slide-bg-overlay"></div>
+                <div class="welcome-area">
+                    <div class="container">
+                        <div class="row flex-v-center">
+                            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
+                                <div class="welcome-text mt-50">
+                                    <h1>Develop a passion for learning new things.</h1>
+                                    <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses.</p>
+                                    <div class="home-button">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome-single-slide">
+                <div class="slide-bg-two slide-bg-overlay"></div>
+                <div class="welcome-area">
+                    <div class="container">
+                        <div class="row flex-v-center">
+                            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
+                                <div class="welcome-text">
+                                    <h1>Develop a passion for learning new things.</h1>
+                                    <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses.</p>
+                                    <div class="home-button">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome-single-slide">
+                <div class="slide-bg-three slide-bg-overlay"></div>
+                <div class="welcome-area">
+                    <div class="container">
+                        <div class="row flex-v-center">
+                            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
+                                <div class="welcome-text">
+                                    <h1>Develop a passion for learning new things.</h1>
+                                    <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater joy adapted too shy. Now properly surprise expenses.</p>
+                                    <div class="home-button">
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--WELCOME SLIDER AREA END-->
 
 <!--Features Section-->
 <section>
@@ -794,6 +828,42 @@
 			time: 1000
 		});
 	});
+</script>
+
+<script>
+/*---------------------------
+	    HOME SLIDER
+	-----------------------------*/
+    var $homeSlider = $('.welcome-slider-area');
+    $homeSlider.owlCarousel({
+        merge: true,
+        smartSpeed: 1000,
+        loop: true,
+        nav: true,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        autoplay: true,
+        autoplayTimeout: 3000,
+        margin: 0,
+        /*animateIn: 'fadeIn',
+        animateOut: 'fadeOut',*/
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            },
+            1200: {
+                items: 1
+            }
+        }
+    });
+
+
 </script>
 
 	</body>
