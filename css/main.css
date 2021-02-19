@@ -189,6 +189,21 @@
     animation: 1s ease 1.5s normal both 1 running fadeInUp;
 }
 
+.primary-btn.wh-1{
+    background-color:#c20505; 
+    color: #fff;
+}
+
+.primary-btn.wh-2{
+    background-color: green;
+    color: #fff;
+}
+
+.primary-btn.wh-3{
+    background-color: blue;
+    color: #fff;
+}
+
 .welcome-text h1 {
     color: #fff;
     font-size: 42px;
@@ -201,6 +216,7 @@
 .welcome-text h1{
     color: #fff;
     font-size: 26px;
+    margin-top: 150px;
     text-align: center;
 }
 .welcome-text > p{
