@@ -26,5 +26,8 @@
         "titleBar.activeBackground": "#184927",
         "titleBar.activeForeground": "#F7FCF9"
     },
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5503,
+    "cSpell.words": [
+        "Linkedin"
+    ]
 }
